@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho Three.js - Cena 3D</title>
+  <link rel="stylesheet" href="style.css">
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="hud">
+    <h2>Cena 3D - Ilha</h2>
+    <p>Animações do personagem (Teclas 1, 2, 3):</p>
+    <div id="botoes-animacao">
+      <button id="btn1" class="btn-anim ativo">1 - Idle (Parada)</button>
+      <button id="btn2" class="btn-anim">2 - Walk (Andar)</button>
+      <button id="btn3" class="btn-anim">3 - Run (Correr)</button>
+    </div>
+    <p class="dica">Use W, A, S, D para andar pela ilha e o mouse para girar a câmera.</p>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
