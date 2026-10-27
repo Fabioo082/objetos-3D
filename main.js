@@ -190,7 +190,7 @@ let mixer = null;
 let acaoIdle, acaoWalk, acaoRun;
 let acaoAtual = null;
 
-loader.load('./models/azri_cycles_-_idle_walk_run.glb', (gltf) => {
+loader.load('./azri_cycles_-_idle_walk_run.glb', (gltf) => {
   const modelo = gltf.scene;
 
   modelo.traverse((obj) => {
